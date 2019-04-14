@@ -1,0 +1,130 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "high or low",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "how to play",
+                        "help me play",
+                        "give me the rules",
+                        "rules",
+                        "what are the rules",
+                        "tell me the rules"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "highIntent",
+                    "slots": [],
+                    "samples": [
+                        "that is higher",
+                        "that is high",
+                        "it is higher",
+                        "it is high",
+                        "it's higher",
+                        "that's higher",
+                        "that's high",
+                        "it's high",
+                        "higher",
+                        "high"
+                    ]
+                },
+                {
+                    "name": "lowIntent",
+                    "slots": [],
+                    "samples": [
+                        "that is low",
+                        "that is lower",
+                        "it is lower",
+                        "it is low",
+                        "it's lower",
+                        "that's lower",
+                        "that's low",
+                        "it's low",
+                        "lower",
+                        "low"
+                    ]
+                },
+                {
+                    "name": "checkScoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the score",
+                        "what was the score",
+                        "what's the high score",
+                        "what's my score"
+                    ]
+                },
+                {
+                    "name": "startNewGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "start a new game",
+                        "let's begin",
+                        "let's play",
+                        "let us play",
+                        "start the game",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "endGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "exit the game",
+                        "that's it for now",
+                        "won't play more",
+                        "enough for today",
+                        "end it",
+                        "goodbye",
+                        "i am done with this"
+                    ]
+                },
+                {
+                    "name": "beginnerDifficultyIntent",
+                    "slots": [],
+                    "samples": [
+                        "i choose beginner",
+                        "set to beginner",
+                        "beginner",
+                        "i'll go with beginner"
+                    ]
+                },
+                {
+                    "name": "moderateDifficultyIntent",
+                    "slots": [],
+                    "samples": [
+                        "set to moderate",
+                        "moderate",
+                        "i'll go with moderate",
+                        "i choose moderate"
+                    ]
+                },
+                {
+                    "name": "hardDifficultyIntent",
+                    "slots": [],
+                    "samples": [
+                        "i choose hard",
+                        "i'll go with hard",
+                        "hard",
+                        "set to hard"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
